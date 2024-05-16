@@ -30,9 +30,7 @@ submit.onclick = ()=>{
 function backgroundTasbih() {
   var src = img.src;
   img.src = "";
-  setTimeout(function () {
-    img.src = src;
-  }, 0);
+  img.src = src;
 }
 
 increasebtn.onclick = () => {
