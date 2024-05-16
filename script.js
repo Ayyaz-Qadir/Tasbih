@@ -32,7 +32,7 @@ function backgroundTasbih() {
   img.src = "";
   setTimeout(function () {
     img.src = src;
-  }, 200);
+  }, 0);
 }
 
 increasebtn.onclick = () => {
